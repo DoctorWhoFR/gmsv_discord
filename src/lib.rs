@@ -1,5 +1,4 @@
 use rglua::interface;
-use rglua::lua;
 use rglua::prelude::*;
 use serenity::all::CreateEmbed;
 use serenity::all::CreateEmbedAuthor;
@@ -18,7 +17,7 @@ use std::thread;
 use serenity::model::id::ChannelId;
 use serenity::builder::CreateMessage;
 use serenity::model::timestamp::Timestamp;
-use serde_json::{json, Value};
+use serde_json::Value;
 use uuid::Uuid;
 
 // Global channel for message passing
@@ -138,8 +137,6 @@ fn connect_discord_bot(l: LuaState) -> Result<i32, interface::Error> {
     }
     
     // Get callback reference
-    let callback_ref = luaL_ref(l, REGISTRYINDEX);
-    
     // Spawn a new thread for Discord bot
     thread::spawn(move || {
         if let Ok(rt) = RUNTIME.lock() {
@@ -260,7 +257,6 @@ fn open(l: LuaState) -> Result<i32, interface::Error> {
 
     // Register functions
     let lib = reg! [
-        "testingd" => concmd_async,
         "connect_discord_bot" => connect_discord_bot,
         "process_discord_messages" => process_discord_messages,
         "send_message" => send_discord_message,

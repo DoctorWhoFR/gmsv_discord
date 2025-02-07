@@ -7,7 +7,7 @@ edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]
-name = "gmsv_testgmod_win32"
+name = "gmsv_discordbot_"
 
 [dependencies]
 lazy_static = "1.5.0"
