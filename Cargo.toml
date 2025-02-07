@@ -1,0 +1,25 @@
+[package]
+name = "testgmod"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+name = "gmsv_testgmod_win32"
+
+[dependencies]
+lazy_static = "1.5.0"
+rglua = "3.0.0"
+serenity = "0.12.4"
+tokio = { version = "1", features = ["rt", "rt-multi-thread", "macros", "sync", "time"] }
+serde_json = "1.0"
+
+[dependencies.uuid]
+version = "1.13.1"
+features = [
+    "v4",                # Lets you generate random UUIDs
+    "fast-rng",          # Use a faster (but still sufficiently random) RNG
+    "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]
