@@ -8,7 +8,7 @@ ffezfez
 - Send and receive messages.
 - Send rich embeds with customizableddd fields.
 - Generate random UUIDs.
-
+fezfezfez
 ## Dependencies
 
 - [Serenity](https://github.com/serenity-rs/serenity) for Discord API integration.
