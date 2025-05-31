@@ -7,7 +7,7 @@ ffezfez
 - Connect a Discord bot to a server.
 - Send and receive messages.
 - Send rich embeds with customizableddd fields.fff
-- Generate random UUIDs.fezfzefezfezfezfff
+- Generate random UUIDs.fezfzefezfezfezffffff
 fezfezfez
 ## Dependencies
 
