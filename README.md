@@ -6,7 +6,7 @@ DiscordBot is a Rust-based module for integrating Discord bot functionality with
 
 - Connect a Discord bot to a server.
 - Send and receive messages.
-- Send rich embeds with customizable fields.
+- Send rich embeds with customizableddd fields.
 - Generate random UUIDs.
 
 ## Dependencies
