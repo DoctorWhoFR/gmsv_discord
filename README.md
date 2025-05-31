@@ -3,7 +3,7 @@
 DiscordBot is a Rust-based module for integrating Discord bot functionality with Garry's Mod using the Serenity library. It allows you to send and receive messages, including rich embeds, from within the game.
 
 ## Features
-ffezfezffff
+fffzefzefzefzeezfezffff
 - Connect a Discord bot to a server.
 - Send and receive messages.ddd
 - Send rich embeds with customizableddd fields.fff
