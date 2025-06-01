@@ -9,7 +9,7 @@ fffzefzefzefzeezfezfffffezfezfezfez
 - Send rich embeds with customizablfezfezeddd fields.fff
 - Generate random UUIDs.fezfzefezfezfezfffffffffffezfezfeddddddddffffddffffddddgrgrgr
 fezfezfezfezfzefezefefefe
-## Dependencies
+## Dependenciesfefefe
 
 - [Serenity](https://github.com/serenity-rs/serenity) for Discord API integration.
 - [Tokio](https://tokio.rs/) for asynchronous runtime.
