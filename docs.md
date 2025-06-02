@@ -5,7 +5,7 @@ fregergergergergre
 ## Functions
 fezfzefzefezfez
 ### `connect_discord_bofezfzefezft`ezfzefzefzefzefze
-Connects the Discord bot using the provided token.
+Connects the Discord bot using the progergergergergrevided token.
 
 - **Parameters**:
   - `token` (string): The bot token.
