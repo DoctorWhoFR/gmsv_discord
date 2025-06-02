@@ -1,7 +1,7 @@
 # Discord Bot Lua API Documentation
 
 This document provides an overview of the Lua functions available for interacting with the Discord bot.
-
+fregergergergergre
 ## Functions
 fezfzefzefezfez
 ### `connect_discord_bofezfzefezft`ezfzefzefzefzefze
