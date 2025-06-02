@@ -10,8 +10,7 @@ Connects the Discord bot using the provided token.
 
 - **Parameters**:
   - `token` (string): The bot token.
-
-- **Example**:
+ezfzefezfzef
   ```lua
   discord.connect_discord_bot("YOUR_BOT_TOKEN")
   ```
