@@ -4,8 +4,7 @@ This document provides an overview of the Lua functions available for interactin
 
 ## Functions
 fezfzefzefezfez
-### `connect_discord_bofezfzefezft`
-fzefezfezfezfzeffffFEFZEFEZ
+### `connect_discord_bofezfzefezft`ezfzefzefzefzefze
 Connects the Discord bot using the provided token.
 
 - **Parameters**:
